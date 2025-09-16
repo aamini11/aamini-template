@@ -14,17 +14,6 @@ import { Font } from 'astro:assets'
 		<meta name="description" content="Sample description" />
 		<meta name="keywords" content="" />
 		<Font cssVariable="--font-dm-sans" preload />
-		<script>
-			import { PUBLIC_POSTHOG_KEY } from 'astro:env/client'
-			import posthog from 'posthog-js'
-
-			posthog.init(PUBLIC_POSTHOG_KEY, {
-				api_host: '/api/analytics',
-				ui_host: 'https://us.posthog.com',
-				defaults: '2025-05-24',
-				person_profiles: 'always',
-			})
-		</script>
 	</head>
 	<body class="bg-background m-0 h-full w-full antialiased">
 		<slot />
