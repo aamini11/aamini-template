@@ -3,7 +3,7 @@ import { loadEnv } from 'vite'
 
 const env = loadEnv('test', process.cwd(), '')
 
-const devUrl = `http://localhost:4002`
+const devUrl = `http://localhost:4321`
 const useDevServer = !process.env.CI && !env.BASE_URL
 const baseUrl = useDevServer ? devUrl : env.BASE_URL
 
