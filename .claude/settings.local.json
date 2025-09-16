@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm e2e:*)",
+      "Bash(dir \"C:\\Users\\amini\\Developer\\aamini-template\\test-results\\index-Screenshot-Homepage-chromium\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
