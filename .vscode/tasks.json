@@ -13,19 +13,6 @@
 			"presentation": {
 				"group": "test"
 			}
-		},
-		{
-			"label": "test:watch",
-			"type": "shell",
-			"command": "pnpm",
-			"args": ["test:watch"],
-			"isBackground": true,
-			"runOptions": {
-				"runOn": "folderOpen"
-			},
-			"presentation": {
-				"group": "test"
-			}
 		}
 	]
 }
